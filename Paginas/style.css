@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+body {
+  
+  background-image: url("/Paginas/pexels-philippedonn-1169754.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h2{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 5em;
+}
+.navbar {
+overflow: hidden;
+background-color: #333;
+transition: top 0.3s ease-in-out;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+}
+
+
+/* Estilos para los enlaces de la barra de navegación */
+.navbar a {
+float: right;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+/* Estilos para los enlaces cuando se pasa el cursor sobre ellos */
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+.content {
+padding-top: 80px; /* Ajusta el padding superior para evitar que el contenido se solape con la barra de navegación */
+}
+
+.linea-separadora {
+border: none;
+height: 5px; /* Grosor de la línea */
+background-color: #ffffff; /* Color de la línea */
+margin: 20px 0; /* Margen superior e inferior para separar el contenido */
+}
+
+.linea-separadora2 {
+    border: none;
+    height: 5px; /* Grosor de la línea */
+    background-color: #000000; /* Color de la línea */
+    margin: 20px 0; /* Margen superior e inferior para separar el contenido */
+    }
+
+.contenedor {
+  display: flex; /* Activar flexbox para centrar */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  width: 100%; /* Ocupar todo el ancho del padre */
+  height: 100vh; /* Ocupar todo el alto del viewport */
+}
+
+#miInput {
+  width: 75%; /* Ancho del cuadro de texto (75%) */
+  padding: 10px; /* Añadir relleno */
+  border: 1px solid #ccc; /* Borde simple */
+}
+
+
+footer {
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 10px 0;
+      }
+
+      .imagen-enlace {
+        position: relative; /* Permite posicionar elementos de forma relativa */
+        display: flex; /* Layout flexbox */
+      }
+      
+      
+      .texto-tooltip {
+        display: none; /* Oculta el texto emergente inicialmente */
+        position: absolute; /* Posicionamiento absoluto */
+        background-color: white; /* Color de fondo */
+        padding: 10px; /* Acolchado */
+        border: 1px solid transparent; /* Borde */
+        z-index: 4; /* Asegura que el texto emergente se superponga a la imagen */
+        font-size: 38px;
+        color: black;
+        
+      }
+      
+      .imagen-enlace:hover .texto-tooltip {
+        display: block; /* Muestra el texto emergente al pasar el mouse */
+      }
+
+
+      .imagenes-fila {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .texta{
+        color: azure; 
+        font-size: 26px; 
+        text-align: center; 
+        padding: 10px;
+      }
+
+      .contenedor-rectangulo {
+        text-align: justify;
+        width: 80%;
+        margin: 0 auto; /* Opcional: agrega márgenes automáticos para centrar horizontalmente en la página */
+        background-color: black;
+        color: #ddd;
+    }
+    .contenedor-imagen {
+      text-align: center;
+    }
